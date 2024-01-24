@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon api/index.js",
+    "dev": "nodemon api/index.js --ignore client/",
     "start": "node api/index.js"
   },
   "author": "Yash Kanekar",
